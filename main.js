@@ -711,7 +711,7 @@ async function main() {
 		// location.href,
 		params.get("url") || "ramen.splat",
 		// "https://huggingface.co/cakewalk/splat-data/resolve/main/",
-		"https://seichris.github.io/",
+		"https://seichris.github.io/splat/",
 	);
 	const req = await fetch(url, {
 		mode: "cors", // no-cors, *cors, same-origin
