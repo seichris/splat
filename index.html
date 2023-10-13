@@ -32,6 +32,12 @@
 				top: 10px;
 				left: 15px;
 			}
+			#navigate {
+				z-index: 100;
+				position: absolute;
+				top: 10px;
+				right: 15px;
+			}
 			h3 {
 				margin: 5px 0;
 			}
@@ -195,51 +201,49 @@
 				<a href="https://github.com/antimatter15/splat">Github</a
 				>.
 			</small>
-		</p> -->
-		<div><a style="text-decoration: none;" href="?url=ramen.splat" >🍜</a></div>
-		<div><a style="text-decoration: none;" href="?url=drift.splat" >🚗</a></div>
-		<div style="margin-bottom: 10px;">
-			<a style="text-decoration: none;" href="?url=shop.splat" >🐖</a><a style="text-decoration: none;" href="?url=shop_front.splat" >, 🐄</a><a style="text-decoration: none;" href="?url=shop_back.splat" >, 🥩</a>
-		</div>
-		<!-- https://seichris.github.io/splat/?url=drift.splat -->
-			<details>
-			<summary>Use mouse or arrow keys to navigate.</summary>
-
-<div id="instructions">movement (arrow keys)
-- left/right arrow keys to strafe side to side
-- up/down arrow keys to move forward/back
-- space to jump
-
-camera angle (wasd)
-- a/d to turn camera left/right
-- w/s to tilt camera up/down
-- q/e to roll camera counterclockwise/clockwise
-- i/k and j/l to orbit
-
-trackpad
-- scroll up/down/left/right to orbit
-- pinch to move forward/back
-- ctrl key + scroll to move forward/back
-- shift + scroll to move up/down or strafe
-
-mouse
-- click and drag to orbit
-- right click (or ctrl/cmd key) and drag up/down to move
-
-touch (mobile)
-- one finger to orbit
-- two finger pinch to move forward/back
-- two finger rotate to rotate camera clockwise/counterclockwise
-- two finger pan to move side-to-side and up-down
-
-other
-- press 0-9 to switch to one of the pre-loaded camera views
-- press p to resume default animation
-</div>
-
-		</details>
+			</p> -->
+			<a style="text-decoration: none;" href="?url=ramen.splat">🍜</a>
+			<a style="text-decoration: none;" href="?url=drift.splat">🚗</a>
+			<a style="text-decoration: none;" href="?url=shop.splat" >🐖</a>
+			<a style="text-decoration: none;" href="?url=shop_front.splat" >🐄</a>
+			<a style="text-decoration: none;" href="?url=shop_back.splat" >🥩</a>
 			
+			<!-- https://seichris.github.io/splat/?url=drift.splat -->
 		</div>
+		<details id="navigate">
+			<summary>Navigate by keyboard and mouse.</summary>
+			<div id="instructions">movement (arrow keys)
+			- left/right arrow keys to strafe side to side
+			- up/down arrow keys to move forward/back
+			- space to jump
+
+			camera angle (wasd)
+			- a/d to turn camera left/right
+			- w/s to tilt camera up/down
+			- q/e to roll camera counterclockwise/clockwise
+			- i/k and j/l to orbit
+
+			trackpad
+			- scroll up/down/left/right to orbit
+			- pinch to move forward/back
+			- ctrl key + scroll to move forward/back
+			- shift + scroll to move up/down or strafe
+
+			mouse
+			- click and drag to orbit
+			- right click (or ctrl/cmd key) and drag up/down to move
+
+			touch (mobile)
+			- one finger to orbit
+			- two finger pinch to move forward/back
+			- two finger rotate to rotate camera clockwise/counterclockwise
+			- two finger pan to move side-to-side and up-down
+
+			other
+			- press 0-9 to switch to one of the pre-loaded camera views
+			- press p to resume default animation
+			</div>
+		</details>
 
 		<div id="progress"></div>
 
